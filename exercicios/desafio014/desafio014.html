@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio de tabela grupal</title>
+    <style>
+        body{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        table{
+            border-collapse:collapse;
+            
+        }
+
+        th,td{
+            border: 1px solid rgb(255, 47, 82);
+            padding: 10px;
+            width: 600px;
+        }
+
+        thead{
+            background-color: palevioletred;
+            color: white;
+        }
+
+        th{
+            background-color: palevioletred;
+            color: white;
+            text-align: left;
+        }
+
+        .porra{
+            background-color: palevioletred;
+            color: white;
+        }
+        #nossa{
+            background-color: palevioletred;
+            color: white;
+        }
+
+        .entendi#nota{
+            text-align: center;
+        }
+
+        .media{
+            text-align: center;
+        }
+        
+        .oi#nota{
+            text-align: center;
+        }
+        .oii#notas{
+            text-align: center;
+        }
+
+        .nao{
+            background-color: white;
+            color: black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2" style="text-align: center;">Áreas</th>
+                <th rowspan="3" colspan="1">Disciplinas</th>
+                <th colspan="2" rowspan="1" class="entendi" id="nota" >Notas</th>
+                <th rowspan="2" class="media">Média</th>
+                <tr>
+                    <th colspan="1" class="oi" id="nota">Nota 1</th>
+                    <th colspan="1" class="oii" id="notas">Nota 2</th>
+                </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4" style="text-align: center;" class="nao">Exatas</th>
+                <td>Matemática</td>
+                <td>10.1</td>
+                <td>6.5</td>
+                <td>7.8</td>
+            </tr>
+            <tr>
+                <td>Física</td>
+                <td>7.5</td>
+                <td>4.1</td>
+                <td>5.0</td>
+            </tr>
+            <tr>
+                <td>Química</td>
+                <td>1.5</td>
+                <td>2.5</td>
+                <td>3.0</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>7.5</td>
+                <td>9.0</td>
+                <td>10.0</td>
+            </tr>
+            <tr>
+                <th colspan="4">Média de Exatas</th>
+                <td class="porra">5.6</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Humanas</td>
+                <td colspan="1">História</td>
+                <td>9.5</td>
+                <td>10.0</td>
+                <td>10.0</td>
+            </tr>
+            <tr>
+                <td colspan="1">Geografia</td>
+                <td>10.0</td>
+                <td>10.0</td>
+                <td>10.0</td>
+            </tr>
+            <tr>
+                <th colspan="4">Média de Humanas</th>
+                <td id="nossa">10.0</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
