@@ -18,12 +18,35 @@ header{
     background-color: pink;
     color: white;
     padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 header > h1{
     border: 1px dashed black;
+    flex: 0 0 203px;
+    
 }
 header > nav{
     border: 1px dashed black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+header > nav > a{
+     background-color: plum;
+     color: white;
+     padding: 10px;
+     margin: 9px;
+     text-decoration: none;
+     align-items: flex-end;
+}
+
+header > nav > a:hover{
+    background-color: aliceblue;
+    color: black;
+    transition: background-color .5s;
 }
 main{
     background-color:whitesmoke ;
