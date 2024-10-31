@@ -10,7 +10,7 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1em;
     background-color:blanchedalmond;
-    height: 100vh;
+    height:100vh;
     width: 100vw;
 }
 
@@ -24,15 +24,14 @@ header{
     align-items: center;
 }
 header > h1{
-    border: 1px dashed black;
-    flex: 0 0 203px;
     
+    flex: 0 0 200px;
 }
 header > nav{
-    border: 1px dashed black;
+    
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: flex-end;
 }
 header > nav > a{
      background-color: plum;
@@ -54,5 +53,7 @@ main{
     padding: 10px;
     border-radius: 20px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.185);
-    width:90%;
+    width: 90%;
+    margin: auto;
+    
 }
